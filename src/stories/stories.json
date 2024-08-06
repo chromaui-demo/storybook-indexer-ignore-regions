@@ -1,0 +1,40 @@
+// {
+//   "args": {
+//     "filePath": "./message_test_run_failure_2.png",
+//     "ignoreRegions": [
+//       { "top": 0, "width": 240, "height": 15 },
+//       { "top": 30, "width": 240, "height": 30 },
+//       { "top": 105, "width": 240, "height": 30 },
+//       { "top": 175, "width": 240, "height": 30 },
+//       { "top": 250, "width": 240, "height": 30 }
+//     ]
+//   }
+// }
+
+{
+    "Button": {
+      "componentPath": "./button/Button.jsx",
+      "stories": {
+        "Primary": {
+          "args": {
+            "primary": true
+          },
+        "Secondary": {
+          "args": {
+            "primary": false
+          }
+        }
+      }
+    },
+    "Dialog": {
+      "componentPath": "./dialog/Dialog.jsx",
+      "stories": {
+        "Closed": {},
+        "Open": {
+          "args": {
+            "isOpen": true
+          }
+        },
+      }
+    }
+  }
