@@ -1,22 +1,4 @@
 import type { StorybookConfig } from '@storybook/react-vite';
-// import type { Indexer } from '@storybook/types';
-
-// import fs from 'fs/promises';
-
-// const jsonStoriesIndexer: Indexer = {
-//   test: /stories\.json$/,
-//   createIndex: async (fileName) => {
-//     const content = JSON.parse(fs.readFileSync(fileName));
-
-//     const stories = generateStoryIndexesFromJson(content);
-
-//     return stories.map((story) => {
-//       type: 'story',
-//       importPath: `virtual:jsonstories--${fileName}--${story.componentName}`,
-//       exportName: story.name
-//     });
-//   },
-// };
 
 const config: StorybookConfig = {
   stories: [
