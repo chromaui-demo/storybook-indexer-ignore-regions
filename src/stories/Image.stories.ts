@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Image } from './Image';
+import { Image, type ImagesProps } from './Image';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
-const meta = {
+const meta: Meta<ImagesProps> = {
   title: 'Example/Image',
   component: Image,
   parameters: {

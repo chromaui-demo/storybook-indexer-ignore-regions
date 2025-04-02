@@ -8,7 +8,6 @@ const config: StorybookConfig = {
     '../src/**/*.dynamic.@(js|jsx|ts|tsx)',
   ],
   addons: [
-    '@storybook/addon-onboarding',
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@chromatic-com/storybook',

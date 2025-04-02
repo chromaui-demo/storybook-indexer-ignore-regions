@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface ImagesProps {
+export interface ImagesProps {
   filePath: string;
   ignoreRegions?: Array<{
     top: number;
