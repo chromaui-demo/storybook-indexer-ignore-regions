@@ -30,7 +30,7 @@ export const Image: React.FC<ImagesProps> = ({
           }}
         ></div>
       ))}
-      <img src={filePath} alt="baseline_image" width={240} height={320} />
+      <img src={filePath} alt="baseline_image" width={240} height={480} />
     </div>
   );
 };

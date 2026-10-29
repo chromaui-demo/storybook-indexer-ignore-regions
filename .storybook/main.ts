@@ -5,11 +5,10 @@ const config: StorybookConfig = {
     '../src/**/*.mdx',
     '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
     '../src/**/*.stories.json',
-    '../src/**/*.dynamic.@(js|jsx|ts|tsx)',
+    // '../src/**/*.dynamic.@(js|jsx|ts|tsx)',
   ],
   addons: [
     '@storybook/addon-essentials',
-    '@chromatic-com/storybook',
     '@storybook/addon-interactions',
     './preset',
   ],

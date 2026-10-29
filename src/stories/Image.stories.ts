@@ -17,48 +17,51 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Splash: Story = {
+export const FirstOnboard: Story = {
   args: {
-    filePath: './baseline_image.png',
-    ignoreRegions: [{ top: 0, width: 240, height: 15 }],
+    filePath: './first-onboard.png',
+    ignoreRegions: [{ top: 0, width: 240, height: 25 }],
   },
 };
 
-export const MessagesIgnoreTitleAndTime: Story = {
+export const SecondOnboard: Story = {
   args: {
-    filePath: './message_test_run_failure_2.png',
-    ignoreRegions: [
-      { top: 0, width: 240, height: 15 },
-      { top: 30, width: 240, height: 30 },
-      { top: 105, width: 240, height: 30 },
-      { top: 175, width: 240, height: 30 },
-      { top: 250, width: 240, height: 30 },
-    ],
+    filePath: './second-onboard.png',
+    ignoreRegions: [{ top: 0, width: 240, height: 25 }],
   },
 };
 
-export const MessagesIgnoreCompleteMessage: Story = {
+export const ThirdOnboard: Story = {
   args: {
-    filePath: './message_test_run_failure_1.png',
-    ignoreRegions: [
-      { top: 0, width: 240, height: 15 },
-      { top: 20, width: 240, height: 60 },
-      { top: 95, width: 240, height: 60 },
-      { top: 170, width: 240, height: 60 },
-      { top: 245, width: 240, height: 60 },
-    ],
+    filePath: './third-onboard.png',
+    ignoreRegions: [{ top: 0, width: 240, height: 25 }],
   },
 };
 
-export const MessagesIgnoreOnlyTime: Story = {
+export const NoPosts: Story = {
   args: {
-    filePath: './message_event_baseline.png',
-    ignoreRegions: [
-      { top: 0, width: 240, height: 15 },
-      { top: 20, width: 50, height: 30, left: 190 },
-      { top: 95, width: 50, height: 30, left: 190 },
-      { top: 165, width: 50, height: 30, left: 190 },
-      { top: 240, width: 50, height: 30, left: 190 },
-    ],
+    filePath: './one-post.png',
+    ignoreRegions: [{ top: 0, width: 240, height: 25 }],
+  },
+};
+
+export const MySites: Story = {
+  args: {
+    filePath: './my-sites.png',
+    ignoreRegions: [{ top: 0, width: 240, height: 25 }],
+  },
+};
+
+export const SettingsModal: Story = {
+  args: {
+    filePath: './settings-modal.png',
+    ignoreRegions: [{ top: 0, width: 240, height: 25 }],
+  },
+};
+
+export const ActionModal: Story = {
+  args: {
+    filePath: './action-modal.png',
+    ignoreRegions: [{ top: 0, width: 240, height: 25 }],
   },
 };
